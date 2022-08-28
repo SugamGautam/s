@@ -193,7 +193,7 @@ nav .fa-solid {
 
 footer{
   position: relative;
-  background: #140B5C;
+  background: #0078fe;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -320,7 +320,7 @@ footer .content .link-boxes .box{
   width: calc(100% + 55px);
   outline: none;
   border: 2px solid #AFAFB6;
-  background: #140B5C;
+  background: #056de3;
   border-radius: 4px;
   padding: 0 15px;
   font-size: 15px;
@@ -333,7 +333,7 @@ footer .content .link-boxes .box{
 }
 .link-boxes .input-box input[type="button"]{
   background: #fff;
-  color: #140B5C;
+  color: #2784ef;
   border: none;
   font-size: 18px;
   font-weight: 500;
@@ -347,7 +347,7 @@ footer .content .link-boxes .box{
 }
 footer .bottom-details{
   width: 100%;
-  background: #0F0844;
+  background: #0777bd;
 }
 footer .bottom-details .bottom_text{
   max-width: 1250px;
