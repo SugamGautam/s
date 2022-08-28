@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sugam Gautam</title>
+    <script src="https://kit.fontawesome.com/392f543ebf.js" crossorigin="anonymous"></script>
+</head>
+
+   <body>
+    <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-3220030732021145">
+</amp-auto-ads>
+    <section class="header">
+        <nav>
+            <a href="more.html"><img src="logo.png" alt="logo"></a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                   
+                    <li><a href="index.html">Home</a></li>                   
+                    <li><a href="contact.html">Any Query</a></li>
+                    <li><a href="youtube.html">Youtube</a></li>   
+                   
+
+                </ul>
+               
+            </div>
+            <i class="fa-solid fa-bars"  onclick="showMenu()"></i>
+           
+        </nav>
+   
+    <div class="text">
+        <h1>Hey! Do You Know About Me ?</h1>
+        <p>I am Sugam Gautam. I am the developer of this site and for your knowledge, this website is not created for the <br> purpose of business. You are also able to have more info about me from the "About me" section. And Yah ! This much , please mind Visiting other sections of this page too!!. Thank You </p>
+       <a href="more.html" class="btn">More info</a>
+    </div>
+</section>
+    
+   <!-- javascript for togglemenu -->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   
+</script>
+
+<footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span class="logo_name">Sugam Gautam</span>
+        </div>
+        <div class="media-icons">
+          <a href="https://m.facebook.com/Techstrics-official-100353239241159/?ref=page_internal"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/channel/UCussUZLrLIWna7ieuXdunEg"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Get started</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Services</li>
+          <li><a href="#">It Information</a></li>
+          <li><a href="#">Web design</a></li>
+          <li><a href="#">Suggestion</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Account</li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">My account</a></li>
+          <li><a href="#">Prefrences</a></li>
+          <li><a href="#">Purchase</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">New</li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Knowledge</a></li>
+          <li><a href="#">Idea</a></li>
+          <li><a href="#">Training</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email"></li>
+          <li><input type="button" value="Subscribe"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2021 <a href="#">CodingLab.</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+   
+
+
+</body>
+</html>
